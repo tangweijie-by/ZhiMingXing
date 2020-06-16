@@ -1,0 +1,26 @@
+<!--pages/welcome2/welcome2.wxml-->
+<image src="cloud://xu971124-bq8oh.7875-xu971124-bq8oh-1301214770/首页背景.svg"  mode='aspectFill' class="bground"></image>
+
+<scroll-view scroll-y class="scrollPage">
+  <view class="flex justify-center" style="padding-top:{{0.1*RpxHeight}}rpx;">
+    <image src='/img/slogan2.svg' mode='widthFix' style='width:70%;'></image>
+  </view>
+  <view class="flex justify-center align-center" style="padding-top:{{0.1*RpxHeight}}rpx;">
+    <image src='/img/father.png' mode="aspectFit" style="width:15%;height:{{0.25*RpxHeight}}rpx;"></image>
+    <view class="flex flex-direction justify-center">
+      <button class="cu-btn bg-blue shadow-blur round" style="width:400rpx;">我是家长</button>
+      <text style="text-align:center;">\n所有老师经过严格认证\n均来自985/211名校学霸</text>
+    </view>
+  </view>
+  <view class="flex justify-center align-center">
+    <image src='/img/teacher.png' mode="aspectFit" style="width:15%;height:{{0.25*RpxHeight}}rpx;"></image>
+    <view class="flex flex-direction justify-center">
+      <button class="cu-btn bg-blue shadow-blur round" style="width:400rpx;">我是老师</button>
+      <text style="text-align:center;">\n所有家教信息严格筛选\n来源真实安全可靠</text>
+    </view>
+  </view>
+
+</scroll-view>
+
+
+
