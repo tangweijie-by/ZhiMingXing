@@ -9,7 +9,7 @@
   "window": {
     "navigationBarBackgroundColor": "#39b54a",
     "navigationStyle": "custom",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"

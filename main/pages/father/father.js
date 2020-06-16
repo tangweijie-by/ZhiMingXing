@@ -9,7 +9,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    focus1:false
+    focus1:false,
+    focus2: false,
+    focus3: false
   },
 
   /**
@@ -79,6 +81,30 @@ Page({
     if (event.detail.value===''){
       this.setData({
         focus1: false
+      })
+    }
+  },
+  _focus2(event) {
+    this.setData({
+      focus2: true
+    })
+  },
+  _blur2(event) {
+    if (event.detail.value === '') {
+      this.setData({
+        focus2: false
+      })
+    }
+  },
+  _focus3(event) {
+    this.setData({
+      focus3: true
+    })
+  },
+  _blur3(event) {
+    if (event.detail.value === '') {
+      this.setData({
+        focus3: false
       })
     }
   }

@@ -1,9 +1,10 @@
 <!--pages/father/father.wxml-->
-<image src="/img/bground.svg"  mode='aspectFill' class="bground"></image>
+
 
 
 <form>
-  <view class="group flex justify-center" style="margin-top:{{0.2*RpxHeight}}rpx;">
+  <view style="margin-top:{{0.2*RpxHeight}}rpx;width:100%"></view>
+  <view class="group flex justify-center" >
     <view>
       <input bindfocus='_focus' bindblur='_blur' style="height:{{0.05*RpxHeight}}rpx;"></input>
       <text class="{{focus1? 'focushighlight':'highlight'}}"></text>
@@ -11,4 +12,25 @@
       <label class="{{focus1? 'inputactive':''}}">称呼</label>
     </view>
   </view>
+
+  <view class="group flex justify-center" style="margin-bottom:0rpx; " >
+    <view>
+      <input bindfocus='_focus2' bindblur='_blur2' style="height:{{0.05*RpxHeight}}rpx;"></input>
+      <text class="{{focus2? 'focushighlight':'highlight'}}"></text>
+      <text class="{{focus2? 'bar2':'bar1'}}"></text>
+      <label class="{{focus2? 'inputactive':''}}">手机号</label>
+    </view>
+  </view>
+  <view class="flex justify-center align-center" style="height:{{0.15*RpxHeight}}rpx;">
+    <button class="cu-btn bg-green shadow yanzhengma1" style="width:500rpx;">发送验证码</button>
+  </view>
+  <view class="group flex justify-center" >
+    <view>
+      <input bindfocus='_focus3' bindblur='_blur3' style="height:{{0.05*RpxHeight}}rpx;"></input>
+      <text class="{{focus3? 'focushighlight':'highlight'}}"></text>
+      <text class="{{focus3? 'bar2':'bar1'}}"></text>
+      <label class="{{focus3? 'inputactive':''}}">验证码</label>
+    </view>
+  </view>
+
 </form>
