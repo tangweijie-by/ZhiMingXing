@@ -1,8 +1,4 @@
-// pages/welcome2/welcome2.js
-let app = getApp()
-let store = require("../../utils/store.js")
-let router = require("../../utils/router.js")
-
+// pages/teacher/teacher.js
 Page({
 
   /**
@@ -16,9 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      RpxHeight: app.globalData.RpxHeight
-    })
+
   },
 
   /**
@@ -68,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  _father(){
-    router.push("father")
-  },
-
-  _teacher() {
-    router.push("teacher")
   }
 })

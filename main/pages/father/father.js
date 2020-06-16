@@ -1,4 +1,4 @@
-// pages/welcome2/welcome2.js
+// pages/father/father.js
 let app = getApp()
 let store = require("../../utils/store.js")
 let router = require("../../utils/router.js")
@@ -9,7 +9,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    focus1:false
   },
 
   /**
@@ -70,11 +70,16 @@ Page({
 
   },
 
-  _father(){
-    router.push("father")
+  _focus(event){
+    this.setData({
+      focus1: true
+    })
   },
-
-  _teacher() {
-    router.push("teacher")
+  _blur(event){
+    if (event.detail.value===''){
+      this.setData({
+        focus1: false
+      })
+    }
   }
 })

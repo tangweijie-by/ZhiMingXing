@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/welcome/welcome",
-    "pages/welcome2/welcome2"
+    "pages/welcome2/welcome2",
+    "pages/father/father",
+    "pages/teacher/teacher"
     
   ],
   "window": {

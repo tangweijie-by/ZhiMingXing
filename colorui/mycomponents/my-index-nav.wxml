@@ -1,6 +1,0 @@
-<cover-view class="xy-custom-f" style="height:{{CustomBar}}px">
-  <cover-view class="xu-custom flex" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-     <cover-view class="iconfont icon-xu-liebiao text-bold ana-list margin-left-sm "></cover-view>
-     <cover-view class="title text-bold" style="top:{{StatusBar}}px">League Report</cover-view>
-  </cover-view>
-</cover-view>

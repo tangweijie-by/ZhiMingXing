@@ -56,6 +56,13 @@
 					"pathName": "pages/welcome2/welcome2",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/father/father",
+					"pathName": "pages/father/father",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

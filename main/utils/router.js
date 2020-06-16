@@ -5,7 +5,9 @@
 //创建一个映射关系
 
 const routerPath = {
-  "welcome2": "/pages/welcome2/welcome2"
+  "welcome2": "/pages/welcome2/welcome2",
+  "father":"/pages/father/father",
+  "teacher":"/pages/teacher/teacher"
 }
 
 module.exports = {

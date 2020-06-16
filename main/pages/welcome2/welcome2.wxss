@@ -1,14 +1,3 @@
 /* pages/welcome2/welcome2.wxss */
 
-page{
-  height: 100%
-}
-
-.bground{
-  width: 100%;
-  height: 100%;
-  position:fixed; 
-  background-size:100% 100%;
-  z-index: -1;
-}
 
